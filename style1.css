@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+}
+
+.navbar {
+  height: 65px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 60px;
+  width: 100px;
+}
+.logo {
+  background-image: url("amazon.in.png");
+  height: 60px;
+  width: 100px;
+  background-size: cover;
+}
+.border {
+  border: 0.9px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+}
+.nav-location {
+  color: white;
+}
+#location1 {
+  color: rgb(225, 224, 224);
+  font-size: 0.9rem;
+  margin-left: 15px;
+}
+#location2 {
+  color: white;
+  font-size: 1rem;
+  margin-left: 4px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.nav-search {
+  margin-left: 10px;
+  display: flex;
+  width: 620px;
+  /*background-color: antiquewhite;*/
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-logo {
+  background-color: rgb(250, 135, 4);
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 1rem;
+}
+.select-nav {
+  background-color: rgb(152, 151, 151);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.placeholder {
+  width: 550px;
+  font-size: 1rem;
+  border: none;
+}
+
+.langu {
+  background-color: rgb(150, 150, 150);
+  border-radius: 5px;
+}
+.Vasha {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+#account1 {
+  font-size: 14px;
+}
+.account {
+  margin-left: 30px;
+}
+.Returns {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+#no1 {
+  font-size: 14px;
+}
+.chart1 {
+  margin-left: 15px;
+}
+.pannel {
+  height: 1.6rem;
+  width: 620rem;
+  background-color: rgb(36, 36, 36);
+  justify-content: space-evenly;
+  align-items: right;
+  color: white;
+}
+#menu {
+  color: aliceblue;
+}
+.options-all {
+  display: flex;
+  background-color: rgb(91, 93, 92);
+  color: white;
+}
